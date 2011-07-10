@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>ClockSeconds</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>com.abart997.clockseconds</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>clockColor</string>
+			<key>label</key>
+			<string>Clock Color</string>
+			<key>validTitles</key>
+			<array>
+				<string>Red</string>
+				<string>Blue</string>
+				<string>Green</string>
+				<string>Black</string>
+				<string>Brown</string>
+				<string>Purple</string>
+				<string>White</string>
+				<string>Orange</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+			</array>
+		</dict>
+		<dict>
+			<key>alignment</key>
+			<integer>1</integer>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Follow me on Twitter for news and updates: @abart997</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ClockSeconds © 2011 Andrea Oliva.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>ClockSeconds</string>
+</dict>
+</plist>

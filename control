@@ -1,0 +1,9 @@
+Package: com.abart997.clockseconds
+Name: ClockSeconds
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Add seconds to your LockScreen and customize it with color
+Maintainer: Andrea Oliva
+Author: Andrea Oliva
+Section: Tweaks
